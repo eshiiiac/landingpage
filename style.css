@@ -1,0 +1,301 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans serif';
+    background-color: black;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    transition: all 0.3s;
+    background-color: transparent;
+}
+header a:hover{
+    color: rgb(250, 183, 58);
+}
+/*HOME*/
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h2{
+    color: white;
+    font-size: 5em; 
+}
+.container h3{
+    color: white;
+    font-size: 3em; 
+}
+.container h3 span{
+    color: orange;
+    cursor: pointer;
+    transition: all 0.3S;
+}
+.container h3 span:hover{
+    color: rgb(246, 202, 122);
+}
+.container .bttn a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all 0.5s;
+}
+.container .bttn a:hover{
+    background-color: #f3cf8e    ;
+    border:2px solid #f3cf8e;
+    color: black;
+}
+
+/*ABOUT*/
+.container1{    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container1 h2{   
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+.container1 .con_a{
+display: flex;
+justify-content: space-evenly;
+} 
+.container1 .con_a .box1, .box2, .box3{
+
+    color: white;
+    width: 25%;
+    height: 75vh;
+    margin-top: 3%;
+    background-color: rgb(37, 37, 37);
+    border-radius: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boxa{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 5vh;
+    background-color: gray;
+    transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    rotate: 50deg;
+    
+}
+/*.boxa h4{
+    background-color: transparent;
+    rotate: -50deg;
+    transition: all 0.3s;
+}
+.boxa h4:hover{
+    transform: rotate(50deg);
+}*/
+
+.boxa:hover{
+    transform: rotate(-50deg);
+    border-bottom: 5px solid white;
+    border-right: 5px solid white ;
+}
+.box2a{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 5vh;
+    background-color: gray;
+    transition: all 0.3s;
+    rotate: 50deg;
+}
+.box2a:hover{
+    transform: rotate(-50deg);
+    border-bottom: 5px solid white;
+    border-right: 5px solid white ;
+}
+.box3a{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 5vh;
+    background-color: gray;
+    transition: all 0.3s;
+    rotate: 50deg;
+}
+.box3a:hover{
+    transform: rotate(-50deg);
+    border-bottom: 5px solid white;
+    border-right: 5px solid white ;
+}
+
+
+
+
+.box1:hover{
+    transform: translateY(-10px);
+    border-bottom: 5px solid cyan;
+}
+.box2:hover:hover{
+    transform: translateY(-10px);
+    border-bottom: 5px solid cyan;
+}
+.box3:hover{
+    transform: translateY(-10px);
+    border-bottom: 5px solid cyan;
+}
+/*SKILLS*/
+.container2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container2 h2{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.container2 .conb{
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.container2 .conb .ser, .ser1, .ser2{
+    width: 25%;
+    height: 75vh;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    transition: all 0.3s;
+}
+.container2 .conb .ser2:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    border-bottom: 10px solid white;
+}
+
+.ser:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    border-bottom: 10px solid white;
+}
+
+.ser1:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    border-bottom: 10px solid white;
+}
+
+.container3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*PORTFOLIO*/
+.container3 h2{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+/*CONTACT*/
+.container4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container4 h2{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    padding: 10px;
+    cursor: pointer;
+}
+.contact{
+    width: 50%;
+    height: 75vh;
+    border-radius: 100px;
+    background-color: rgb(39, 39, 39);
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    color: white;
+    background-color: rgb(39, 39, 39);
+    height: 7vh;
+    width: 40vh;
+    border-style: none;
+    border-bottom: 3px solid white;
+}
+form input:hover{
+    border-bottom: 3px solid orange;
+}
+form textarea{
+    background-color: rgb(39, 39, 39);
+    border-style: none;
+    color: #fff;
+    border-bottom: 3px solid white;
+    height: 10vh;
+}
+form button{
+    color: #fff;
+    background-color: rgb(255, 196, 0);
+    cursor: pointer;
+    height: 5vh;
+}
